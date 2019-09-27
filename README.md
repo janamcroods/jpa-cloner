@@ -6,9 +6,9 @@ Cloned entities will have all basic properties copied by default.
 Advanced control over the cloning process is supported via the **PropertyFilter** interface.
 ```xml
 <dependency>
-    <groupId>com.github.nociar</groupId>
-    <artifactId>jpa-cloner</artifactId>
-    <version>1.0.3</version>
+<groupId>com.github.janamcroods</groupId>
+<artifactId>jpa-cloner</artifactId>
+<version>v1.0.3</version>
 </dependency>
 ```
 
