@@ -5,6 +5,7 @@ The project allows cloning of JPA **entity subgraphs**. Entity subgraphs are def
 Cloned entities will have all basic properties copied by default.
 Advanced control over the cloning process is supported via the **PropertyFilter** interface.
 
+
 ```xml
 <repositories>
     <repository>
@@ -55,3 +56,4 @@ Company clone5 = JpaCloner.clone(company, myFilter, "*+");
 - Cloned entities must **correctly** implement equals() and hashCode().
 
 Please refer to the **JpaCloner** class for more description.
+[![](https://jitpack.io/v/janamcroods/jpa-cloner.svg)](https://jitpack.io/#janamcroods/jpa-cloner)
