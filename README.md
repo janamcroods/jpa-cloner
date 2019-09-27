@@ -4,11 +4,23 @@
 The project allows cloning of JPA **entity subgraphs**. Entity subgraphs are defined by string patterns.
 Cloned entities will have all basic properties copied by default.
 Advanced control over the cloning process is supported via the **PropertyFilter** interface.
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+
+
 ```xml
 <dependency>
-<groupId>com.github.janamcroods</groupId>
-<artifactId>jpa-cloner</artifactId>
-<version>v1.0.3</version>
+    <groupId>com.github.janamcroods</groupId>
+    <artifactId>jpa-cloner</artifactId>
+    <version>v1.0.3</version>
 </dependency>
 ```
 
